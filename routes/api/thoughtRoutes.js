@@ -7,7 +7,7 @@ const {
   deleteThought,
   addReaction,
   removeReaction,
-} = require("../../controllers/thoughtController");
+} = require("/Users/danielrescigno/pen_bootcamp/challenges/social-network-api/controllers/thoughtContoller.js");
 
 
 router.route("/").get(getAllThought).post(createThought);
